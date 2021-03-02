@@ -87,3 +87,4 @@ Output parse tree:
 69 {'type': 'enter', 'content': '\n', 'alias': None, 'length': 1, 'position': 327}
 70 {'type': 'blank', 'content': '    ', 'alias': None, 'length': 4, 'position': 328}
 ```
+It can support all 246 languages in PrismJS. Easy to convert PrismJS language component settings from javascript to python. 4 languages have been converted: Javscript, Python, Bash and Clike.
