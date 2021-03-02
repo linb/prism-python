@@ -1,4 +1,4 @@
-It's a python syntax parser based on prismjs - create a parse tree for  246 languages.
+It's a python syntax parser based on prismjs - create a parse tree for 246 languages.
 
 Input code:
 ```javascript
@@ -87,4 +87,4 @@ Output parse tree:
 69 {'type': 'enter', 'content': '\n', 'alias': None, 'length': 1, 'position': 327}
 70 {'type': 'blank', 'content': '    ', 'alias': None, 'length': 4, 'position': 328}
 ```
-It can support all 246 languages in PrismJS. Easy to convert PrismJS language component settings from javascript to python. 4 languages have been converted: Javscript, Python, Bash and Clike.
+It can support all 246 languages in PrismJS. Easy to convert PrismJS language component settings from javascript to python. Here, 4 languages have been converted: Javscript, Python, Bash and Clike.
