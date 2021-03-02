@@ -1,7 +1,7 @@
 It's a python syntax parser based on prismjs - create a parse tree for  246 languages.
 
 Input code:
-'''
+```javascript
 const Prism = require('prismjs');
 const loadLanguages = require('prismjs/components/');
 loadLanguages(['haml']);
@@ -11,10 +11,10 @@ const code = `= ['hi', 'there', 'reader!'].join " "`;
 
 // Returns a highlighted HTML string
 const html = Prism.highlight(code, Prism.languages.haml, 'haml');
-'''
+```
 
 Output parse tree:
-
+```
 0 {'type': 'enter', 'content': '\n', 'alias': None, 'length': 1, 'position': 0}
 1 {'type': 'keyword', 'content': 'const', 'alias': None, 'length': 5, 'position': 1}
 2 {'type': 'blank', 'content': ' ', 'alias': None, 'length': 1, 'position': 6}
@@ -86,3 +86,4 @@ Output parse tree:
 68 {'type': 'punctuation', 'content': ';', 'alias': None, 'length': 1, 'position': 326}
 69 {'type': 'enter', 'content': '\n', 'alias': None, 'length': 1, 'position': 327}
 70 {'type': 'blank', 'content': '    ', 'alias': None, 'length': 4, 'position': 328}
+```
